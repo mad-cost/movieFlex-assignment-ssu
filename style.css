@@ -2,14 +2,25 @@ body {
   background-color: black;
 
 }
+.main-img {
+  width: 100vw;        
+  height: 700px;      
+  object-fit: cover;   /* 비율 유지*/
+  opacity: 0.5;        /* 투명도 0~1 */
+  display: block;      /* 불필요한 여백 제거 */
 
+  /* mask를 사용하여 이미지 아래로 갈 수록 그라데이션 */
+  mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%); /* 0~20 투명, 80~100 투명 */
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
+
+}
 .logo { 
   position: absolute;         /* 위치를 고정 */
-  top: 30px;                
-  left: 30px;               
+  top: 20px;                
+  left: 100px;               
   color: red;
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 4rem;
-  letter-spacing: 2px;
+  font-size: 3rem;
+  letter-spacing: 2px; /* 글자 사이 간격 */
   text-transform: uppercase;
 }
