@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  overflow-x: hidden; /* 가로 스크롤바 제거 */
 }
 /* header */
 .main-img {
@@ -100,6 +101,76 @@ body {
 }
 .search-btn:hover {
   background: #b00610;
+}
+
+/* section2 */
+.main-text3{
+  margin-left: 100px;     
+  margin-top: 60px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.best-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 40px; /* 이미지 사이 간격 */
+}
+
+.best-list li {
+position: relative; /* span 요소의 absolute positioning 기준점 */
+}
+
+.best-list span {
+position: absolute;
+    top: 7vw; /* 원하는 세로 위치로 조정 */
+    left: 6px; 
+    font-size: 4rem; 
+    font-weight: bold;
+    z-index: 1; /* 이미지가 span을 가리지 않도록 */
+    color: black; 
+    -webkit-text-stroke: 1px white; 
+}
+
+.best-list img {
+  width: 300px;
+  height: 190px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.best-list img:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s;
+}
+.slider-container {
+  position: relative;
+  margin-left: 100px;
+  overflow: hidden;
+  width: calc(100% - 100px);
+  max-width: 1300px;
+}
+.slide-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  z-index: 1;
+  border-radius: 50%;
+}
+.slide-btn.left {
+  left: 3px; 
+}
+.slide-btn.right {
+  right: 3px; 
 }
 
 /* footer */
