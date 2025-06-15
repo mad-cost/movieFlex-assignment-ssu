@@ -1,7 +1,7 @@
 body {
   background-color: black;
-
 }
+/* header */
 .main-img {
   width: 100vw;        
   height: 700px;      
@@ -24,6 +24,8 @@ body {
   letter-spacing: 2px; /* 글자 사이 간격 */
   text-transform: uppercase;
 }
+
+/* section */
 .main-text { 
   position: absolute;
   top: 40%;
@@ -78,4 +80,32 @@ body {
 }
 .search-btn:hover {
   background: #b00610;
+}
+
+/* footer */
+footer {
+  width: 100vw;
+  background: black;
+  text-align: center;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.footer-bold {
+  font-weight: bold;
+  font-size: small;
+}
+.footer-text {
+  color: gainsboro;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 5vw;
+  text-align: center;
+}
+.footer-text2{
+  position: relative; 
+  left: 100px;
+  color: gray;
+  font-size: 0.7rem;
+  font-weight: normal;
+  left: 100px;  
 }
