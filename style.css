@@ -24,3 +24,25 @@ body {
   letter-spacing: 2px; /* 글자 사이 간격 */
   text-transform: uppercase;
 }
+.main-text { 
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-50%, -50%); /* 가로세로 중앙 정렬 */
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 42px;
+  font-weight: bold; /* 굵게 */
+  letter-spacing: 2px;
+}
+.main-text2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 21px;
+  margin-top: 50px; 
+  letter-spacing: 1px;
+}
