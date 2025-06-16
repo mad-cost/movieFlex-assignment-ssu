@@ -1,6 +1,11 @@
 body {
   background-color: black;
-  overflow-x: hidden; /* 가로 스크롤바 제거 */
+  display: flex;
+  min-height: 100vh;
+  margin: 0;   
+  /* 가로 세로 정렬 */
+  align-items: center;
+  justify-content: center;
 }
 .main-img {
   position: fixed;
@@ -11,7 +16,6 @@ body {
   opacity: 0.6;
   display: block;
   z-index: -1;
-
   mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
 }
@@ -24,4 +28,61 @@ body {
   font-size: 3rem;
   letter-spacing: 2px; 
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.signup-container {
+  background: rgba(0, 0, 0, 0.5); /* 검정 투명 */
+  border-radius: 8px;
+  padding: 40px 30px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-container h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.signup-container label {
+  color: white;
+  margin-bottom: 6px;
+  margin-top: 14px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.signup-container input {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  font-size: 1rem;
+  background: rgba(255,255,255,0.1);
+  color: white;
+  outline: none;
+}
+.signup-container input::placeholder {
+  color: gray;
+}
+
+.signup-btn {
+  margin-top: 28px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: red;
+  color: white;
+  font-size: 1.0rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.signup-btn:hover {
+  background: #b00610;
 }

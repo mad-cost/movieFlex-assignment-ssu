@@ -10,11 +10,28 @@
 <body>
   <header>
     <img class="main-img" src="/Img/auth/signUp.png" alt="메인 이미지">
-    <div class="logo">movie flex</div>
+    <a href="../index.html" class="logo">movie flex</a>
   </header>
 
   <section>
-    
+    <div class="signup-container">
+      <h2>회원가입</h2>
+      <label for="userid">아이디</label>
+      <input type="text" id="userId" placeholder="아이디 입력">
+      
+      <label for="password">비밀번호</label>
+      <input type="password" id="password" placeholder="비밀번호 입력">
+      
+      <label for="nickname">닉네임</label>
+      <input type="text" id="nickName" placeholder="닉네임 입력">
+      
+      <label for="email">이메일</label>
+      <input type="email" id="email" placeholder="이메일 입력">
+      
+      <button class="signup-btn">가입하기</button>
+
+      <script src="/js/auth.js"></script>
+    </div>
   </section>
 </body>
 </html>  
