@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+}
+.logo { 
+  position: absolute;         /* 위치를 고정 */
+  top: 20px;                
+  left: 100px;               
+  color: red;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 2px; /* 글자 사이 간격 */
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.auth-buttons{
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+.auth-buttons a {
+  text-decoration: none;
+}
+.signIn-btn, .signUp-btn {
+  padding: 5px 5px;
+  margin-left: 5px;
+  font-size: 1rem;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: background 0.2s;
+}
+
+.signIn-btn:hover, .signUp-btn:hover {
+  background: #b00610;
+}

@@ -127,6 +127,9 @@ body {
 .best-list li {
   position: relative; /* span 요소의 absolute positioning 기준점 */
 }
+.best-list a {
+  cursor: default;
+}
 .best-list span {
   position: absolute;
   top: 7vw; /* 원하는 세로 위치로 조정 */
