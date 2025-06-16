@@ -1,0 +1,103 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.logo { 
+  position: absolute;         /* 위치를 고정 */
+  top: 20px;                
+  left: 100px;               
+  color: red;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 2px; /* 글자 사이 간격 */
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.auth-buttons{
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+.auth-buttons a {
+  text-decoration: none;
+}
+.signIn-btn, .signUp-btn {
+  padding: 5px 5px;
+  margin-left: 5px;
+  font-size: 1rem;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: background 0.2s;
+}
+.signIn-btn:hover, .signUp-btn:hover {
+  background: #b00610;
+}
+
+
+.movie-container {
+  margin-top: 6%;
+  display: flex;
+  gap: 50px;
+  padding: 50px 100px;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.movie-info {
+  flex: 1;
+}
+
+.movie-title {
+  font-size: 4rem;
+  margin-bottom: 15px;
+}
+
+.sub-info {
+  color: #bbb;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #ddd;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.status {
+  display: flex;
+  gap: 30px;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+.buttons button {
+  background-color: #e5007d;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 1rem;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.movie-poster {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.movie-poster img {
+  width: 95%; 
+  max-width: 700px; 
+  height: auto;
+  mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
+}
