@@ -34,19 +34,17 @@ body {
 .signup-container {
   background: rgba(0, 0, 0, 0.5); /* 검정 투명 */
   border-radius: 8px;
-  padding: 40px 30px;
+  padding: 30px 30px 40px 30px;
   width: 340px;
   display: flex;
   flex-direction: column;
 }
-
 .signup-container h2 {
   color: white;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   letter-spacing: 2px;
 }
-
 .signup-container label {
   color: white;
   margin-bottom: 6px;
@@ -54,7 +52,6 @@ body {
   font-size: 1rem;
   letter-spacing: 1px;
 }
-
 .signup-container input {
   padding: 10px 12px;
   border: none;
@@ -81,8 +78,4 @@ body {
   letter-spacing: 1px;
   cursor: pointer;
   transition: background 0.2s;
-}
-
-.signup-btn:hover {
-  background: #b00610;
 }
