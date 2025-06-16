@@ -122,12 +122,11 @@ body {
   margin-bottom: 5rem;
   padding: 0;
   gap: 40px; /* 이미지 사이 간격 */
+  cursor: default;
 }
-
 .best-list li {
   position: relative; /* span 요소의 absolute positioning 기준점 */
 }
-
 .best-list span {
   position: absolute;
   top: 7vw; /* 원하는 세로 위치로 조정 */
