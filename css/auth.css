@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  overflow-x: hidden; /* 가로 스크롤바 제거 */
+}
+.main-img {
+  position: fixed;
+  inset: 0; /*top: 0; right: 0; bottom: 0; left: 0; - 이미지가 꽉 차게 만들어주기 위해 사용 */
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.6;
+  display: block;
+  z-index: -1;
+
+  mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
+}
+.logo { 
+  position: absolute;        
+  top: 20px;                
+  left: 100px;               
+  color: red;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 2px; 
+  text-transform: uppercase;
+}
