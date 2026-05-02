@@ -8,10 +8,10 @@
 
 ### 📸 스크린샷
 
-#### 🔐 로그인
+#### 🔐 로그인 페이지
 <img src="Img/readme/signIn-Page.png" width="700" alt="로그인 페이지">
 
-#### 📝 회원가입
+#### 📝 회원가입 페이지
 <img src="Img/readme/signUp-Page.png" width="700" alt="회원가입 페이지">
 
 #### 🏆 인기 TOP7 페이지
@@ -19,7 +19,7 @@
 |-------|-------|
 | <img src="Img/readme/TOP2.png" width="350" alt="TOP2 페이지"> | <img src="Img/readme/TOP3.png" width="350" alt="TOP3 페이지"> |
 
-#### 🎞️ 개봉 예정작
+#### 🎞️ 개봉 예정작 페이지
 <img src="Img/readme/upComingMovie.png" width="700" alt="개봉 예정작 페이지">
 
 #### 🚧 미완성 페이지
